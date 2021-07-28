@@ -13,7 +13,8 @@
     },
     "scripts": {
       "lint": "eslint \"**/*.{tsx,ts,jsx,js}\"",
-      "prepare": "husky install && chmod a+x .husky/pre-commit && chmod a+x .husky/commit-msg"
+      "prepare": "husky install",
+      "postprepare": " && chmod a+x .husky/pre-commit && chmod a+x .husky/commit-msg"
     },
     "eslintConfig": {
       "extends": ["react-app", "react-app/jest"]
