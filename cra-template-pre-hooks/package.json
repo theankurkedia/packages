@@ -1,0 +1,32 @@
+{
+  "name": "cra-template-pre-hooks",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "husky",
+    "eslint",
+    "prettier",
+    "pre-commit-hooks",
+    "commitlint"
+  ],
+  "description": "A quick start CRA template with Typescript, Prettier, Eslint, Husky, CommitLint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theankurkedia/packages/tree/main/cra-templates-pre-hooks.git",
+    "directory": "packages/cra-template-pre-hooks"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/theankurkedia/packages/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
